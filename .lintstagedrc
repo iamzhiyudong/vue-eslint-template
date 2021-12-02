@@ -1,0 +1,13 @@
+{
+  "src/**/*.{js,vue}": [
+    "eslint --cache --fix",
+    "prettier --write"
+  ],
+  "src/**/*.{css,less,scss,sass}": [
+    "stylelint --fix",
+    "prettier --write"
+  ],
+  "*.md": [
+    "prettier --write"
+  ]
+}
